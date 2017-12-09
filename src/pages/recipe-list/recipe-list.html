@@ -1,0 +1,91 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      已开处方
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content style="background: #eee;">
+<!--   <div class="chat-begin" text-center>
+  <ion-icon name="chatbubbles"></ion-icon>
+  <p>您还没有向医生咨询过</p>
+  <button ion-button (click)="startPage();">开启我的中医之旅</button>
+</div> -->
+  <ion-grid class="recipe-tab" text-center>
+    <ion-row>
+      <ion-col>
+        <button ion-button clear icon-left small color="dark" [ngClass]="{active:status==0}" (click)="status=0">
+          <ion-icon name="mail-outline"></ion-icon>
+          全部（61）
+        </button>
+      </ion-col>
+      <ion-col style="border-left:1px solid #ccc;">
+        <button ion-button clear icon-left small color="dark" [ngClass]="{active:status==1}" (click)="status=1">
+          <ion-icon name="mail-open-outline"></ion-icon>
+          已支付（40）
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <div class="space"></div>
+  <div *ngIf="status==0">
+    <ion-list class="recipe-list">
+      <button ion-item (click)="startPage()">
+        金女士 <small>女 47岁</small> <ion-note item-end>查看详情</ion-note>
+      </button>
+      <ion-item>
+        <h2>北京-北京同仁堂-饮片 <span>￥ 1863.25</span></h2>
+        <p>2017年11月03日 15：46 <span>配送中</span></p>
+      </ion-item>
+    </ion-list>
+    <ion-list class="recipe-list">
+      <button ion-item (click)="startPage()">
+        金女士 <small>女 47岁</small> <ion-note item-end>查看详情</ion-note>
+      </button>
+      <ion-item>
+        <h2>北京-北京同仁堂-饮片 <span>￥ 1863.25</span></h2>
+        <p>2017年11月03日 15：46 <span>配送中</span></p>
+      </ion-item>
+    </ion-list>
+    <ion-list class="recipe-list">
+      <button ion-item (click)="startPage()">
+        金女士 <small>女 47岁</small> <ion-note item-end>查看详情</ion-note>
+      </button>
+      <ion-item>
+        <h2>北京-北京同仁堂-饮片 <span>￥ 1863.25</span></h2>
+        <p>2017年11月03日 15：46 <span>配送中</span></p>
+      </ion-item>
+    </ion-list>
+    <ion-list class="recipe-list">
+      <button ion-item (click)="startPage()">
+        金女士 <small>女 47岁</small> <ion-note item-end>查看详情</ion-note>
+      </button>
+      <ion-item>
+        <h2>北京-北京同仁堂-饮片 <span>￥ 1863.25</span></h2>
+        <p>2017年11月03日 15：46 <span>配送中</span></p>
+      </ion-item>
+    </ion-list>
+    <ion-list class="recipe-list">
+      <button ion-item (click)="startPage()">
+        金女士 <small>女 47岁</small> <ion-note item-end>查看详情</ion-note>
+      </button>
+      <ion-item>
+        <h2>北京-北京同仁堂-饮片 <span>￥ 1863.25</span></h2>
+        <p>2017年11月03日 15：46 <span>配送中</span></p>
+      </ion-item>
+    </ion-list>
+  </div>
+
+  <div *ngIf="status==1">
+    <ion-list class="recipe-list">
+      <button ion-item (click)="startPage()">
+        金女士 <small>女 47岁</small> <ion-note item-end>查看详情</ion-note>
+      </button>
+      <ion-item>
+        <h2>北京-北京同仁堂-饮片 <span>￥ 1863.25</span></h2>
+        <p>2017年11月03日 15：46 <span>配送中</span></p>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>

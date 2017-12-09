@@ -1,0 +1,42 @@
+page-photo-contacts {
+  .patient-list {
+    margin-bottom: 12px;
+    .item-block:first-child {
+      border-top:none!important;
+    }
+    .item-block:last-child {
+      border-bottom:none!important;
+    }
+    .item-inner {
+      background-image: none!important;
+      padding-right: 8px!important;
+    }
+    img {
+      border-radius: 50%;
+    }
+
+    h2 {
+      font-size: 14px;
+      span {
+        color: #488aff;
+        border:1px solid #488aff;
+        border-radius: 2px;
+        display: inline-block;
+        padding: 0px 8px;
+        float: right;
+      }
+    }
+    p {
+      font-size: 12px;
+      span {
+        float: right;
+      }
+      .male {
+        color: #488aff;
+      }
+      .female {
+        color: #f53d3d;
+      }
+    }
+  }
+}

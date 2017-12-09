@@ -1,0 +1,60 @@
+page-chat {
+  .chat-begin {
+    padding-top: 80px;
+  }
+
+  .chat-begin .icon {
+    font-size: 40px;
+    color: #aaa;
+  }
+
+  .chat-begin p {
+    color: #aaa;
+  }
+
+  .space {
+    height: 12px;
+    background: #eee;
+  }
+
+  .chat-tab {
+    background-color: #fff;
+    .col {
+      padding: 0;
+    }
+  }
+
+  .patient-list {
+    .item-inner {
+      background-image: none!important;
+      padding-right: 8px!important;
+    }
+    img {
+      border-radius: 50%;
+    }
+
+    h2 {
+      font-size: 14px;
+      small {
+        float: right;
+        color: #ccc;
+      }
+      em {
+        display: inline-block;
+        margin-left: 8px;
+        font-style: normal;
+        background-color: #ccc;
+        border-radius: 2px;
+        padding: 2px 8px;
+        color: #fff;
+      }
+    }
+
+    p {
+      font-size: 12px;
+      span {
+        color: #ccc;
+      }
+    }
+  }
+}

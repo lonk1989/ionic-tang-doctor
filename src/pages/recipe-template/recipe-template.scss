@@ -1,0 +1,18 @@
+page-recipe-template {
+  .list {
+    margin-bottom: 12px;
+    .item-inner {
+      border-bottom-color: #eee!important;
+    }
+    .item-block:first-child {
+      border-top:none!important;
+    }
+    .item-block:last-child {
+      border-bottom:none!important;
+    }
+    .item {
+      min-height: 34px;
+      font-size: 14px;
+    }
+  }
+}

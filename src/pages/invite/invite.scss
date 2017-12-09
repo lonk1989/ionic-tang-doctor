@@ -1,0 +1,22 @@
+page-invite {
+  .invite {
+    padding-top: 60px;
+    border:none!important;
+  }
+
+  .pull-right {
+    float: right;
+  }
+
+  .doctor-pic {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+  }
+  h2 {
+    margin: 8px!important;
+  }
+  .qrcode {
+    width: 50%;
+  }
+}

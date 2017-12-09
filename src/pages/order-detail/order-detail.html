@@ -1,0 +1,91 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      订单详情
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content style="background: #eee;">
+  <ion-list class="order-list">
+    <ion-grid class="order-process">
+      <ion-row text-center>
+        <ion-col col-1></ion-col>
+        <ion-col col-2 class="active">
+          <h2>1</h2>
+          <p>已发送</p>
+        </ion-col>
+        <ion-col col-2 class="active">
+          <h2>2<div class="line"></div></h2>
+          <p>已划价</p>
+        </ion-col>
+        <ion-col col-2 class="active">
+          <h2>3<div class="line"></div></h2>
+          <p>已支付</p>
+        </ion-col>
+        <ion-col col-2 class="active">
+          <h2>4<div class="line"></div></h2>
+          <p>已配送</p>
+        </ion-col>
+        <ion-col col-2>
+          <h2>5<div class="line"></div></h2>
+          <p>已签收</p>
+        </ion-col>
+        <ion-col col-1></ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-list>
+  <ion-list class="order-list">
+    <ion-item class="payment"><ion-icon name="radio-button-on"></ion-icon> 2017.11.03 15:48 支付</ion-item>
+  </ion-list>
+  <ion-list class="order-list">
+    <ion-item>
+      <h2>北京-北京同仁堂 内服中药</h2>
+    </ion-item>
+    <ion-item>
+      <p>收货人：金女士</p>
+      <p>地址：新疆维吾尔自治区******</p>
+    </ion-item>
+  </ion-list>
+  <ion-list class="order-list no-border">
+    <ion-item>
+      <h2>[顺丰]快件在【乌鲁木齐集散中心】装车，已法往下一站</h2>
+      <p>2017-11-05 14：56：14</p>
+    </ion-item>
+    <ion-item>
+      <h2>[顺丰]快件到达【乌鲁木齐集散中心】</h2>
+      <p>2017-11-05 13：03：14</p>
+    </ion-item>
+    <ion-item>
+      <h2>[顺丰]快件到达【北京集散中心】</h2>
+      <p>2017-11-04 23：49：39</p>
+    </ion-item>
+    <button ion-item text-center>查看物流详情</button>
+  </ion-list>
+
+  <ion-list class="order-list">
+    <ion-item>
+      <h2>北京-北京同仁堂 内服中药</h2>
+    </ion-item>
+    <ion-item>
+      <p>收货人：金女士</p>
+      <p>地址：新疆维吾尔自治区******</p>
+    </ion-item>
+  </ion-list>
+  <ion-list class="order-list no-border">
+    <ion-item>
+      <h2 class="margin">葛根 30g 生黄芪30g 麦门冬12g 醋五味子10g...</h2>
+      <p class="black">代煎费： <span>￥0.00</span></p>
+      <p class="black">运费： <span>￥0.00</span></p>
+      <p class="black">附加诊费： <span>￥0.00（隐藏）</span></p>
+      <p class="black">实付款： <span class="red">￥1863.25</span></p>
+    </ion-item>
+    <button ion-item text-center (click)="startPage()">查看药方详情</button>
+  </ion-list>
+  <ion-list class="order-list no-border">
+    <ion-item>
+      <p class="black">订单编号：wechat20171103154823929559</p>
+      <p class="black">留言：未填写</p>
+      <p class="black">客服电话：400-6066636（工作日：10：00-20：00）</p>
+    </ion-item>
+  </ion-list>
+</ion-content>

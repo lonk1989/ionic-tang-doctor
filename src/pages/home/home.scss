@@ -1,3 +1,100 @@
 page-home {
+  .slides {
+    height: auto;
+  }
+  .swiper-container {
+    height: auto;
+  }
 
+  .space {
+    height: 12px;
+    background: #eee;
+  }
+
+  .home-menu {
+    background: #fff;
+    text-align: center;
+    .col img {
+      border-radius: 50%;
+      width: 46px;
+      height: 46px;
+    }
+    .col p {
+      font-size: 12px;
+      margin: 0;
+      color: #999;
+    }
+  }
+
+  .home-settings {
+    background: #eee;
+    .col .item:first-child {
+      border-radius: 8px 8px 0 0;
+    }
+    .col .item:last-child {
+      border-radius: 0 0 8px 8px;
+    }
+    .col img {
+      border-radius: 50%;
+      width: 32px;
+      height: 32px;
+    }
+    .col h2 {
+      font-size: 14px;
+      margin: 0;
+      color: #333;
+    }
+    .col p {
+      font-size: 12px;
+      margin: 0;
+      color: #333;
+      text-align: center;
+    }
+    .top-border .input-wrapper{
+      border-top: 1px dashed #eee!important;
+    }
+  }
+
+
+
+  .home-doctor {
+    .item {
+      background: #488aff;
+      h2 {
+        color: #ecc59a;
+      }
+      p {
+        color: #fff;
+      }
+    }
+    .avatar {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+    }
+    .certify {
+      width: 54px;
+      height: 16px;
+      position: absolute;
+      top: 68px;
+      left: 50%;
+      margin-left: -27px;
+    }
+  }
+
+  .list {
+    margin-bottom: 12px;
+    .item {
+      min-height: 34px;
+      font-size: 14px;
+    }
+  }
+
+  .no-border .item, .no-border .item-inner {
+     border: none!important;
+   }
+
+   .no-margin {
+    margin:0!important;
+   }
 }
